@@ -4,7 +4,7 @@ const db = require("../utils/database");
 const Users = require("./users.models");
 const Recipes = require("./recipes.models");
 
-const UsersRecipes = db.define("recipes", {
+const UsersRecipes = db.define("users_recipes", {
   id: {
     type: DataTypes.UUID,
     primaryKey: true,
