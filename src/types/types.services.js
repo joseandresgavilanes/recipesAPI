@@ -1,4 +1,4 @@
-const typeControllers = require("./ingredients.controller");
+const typeControllers = require("./types.controller");
 
 const getAllTypes = (req, res) => {
   typeControllers
